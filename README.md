@@ -6,3 +6,4 @@ Dicha pagina solo fue creada con fines educativos y practicar conocimientos obte
   <li>HTML 5</li>
   <li>CSS 3</li>
 </ul><br>
+<strong><a href="https://barberia-alura.aress12.repl.co/index.html">Visualizar Pagina.</a></strong>
