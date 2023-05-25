@@ -42,6 +42,7 @@ nav a:hover{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 
@@ -55,6 +56,7 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    background-color: #ffffff;
 }
 
 .productos li:hover{
@@ -87,7 +89,7 @@ nav a:hover{
 footer{
     text-align: center;
     background: url(./bg.jpg);
-    padding:40px;
+    padding:30px;
     border-bottom: 2px solid #ff0000;
 }
 
@@ -97,8 +99,12 @@ footer{
     margin:20px;
 }
 
+.content-form{
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
 form{
-    margin: 40px 0;
+    margin: 40px 0 15px 0;
 }
 
 form label, form legend{
@@ -150,6 +156,9 @@ td,th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+tbody{
+  background-color: #ffffff;
+}
 
 /*Aquí inicia el CSS para nuestra home*/
 .banner{
@@ -186,6 +195,12 @@ td,th{
     width: 120px;
     float:left;
     margin: 0 20px 20px 0;
+    border-bottom: 7px solid  #555555;
+  border-radius: 50%;
+  padding-bottom: 6px;
+  box-shadow: 9px 9px 9px .05px #888888;
+
+
 }
 
 .mapa{
