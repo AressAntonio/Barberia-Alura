@@ -54,9 +54,11 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    *border: 2px solid #000000;
     border-radius: 10px;
     background-color: #ffffff;
+    border-left: 2px solid #ff0000;
+  border-right: 2px solid #000fff;
 }
 
 .productos li:hover{
@@ -119,8 +121,7 @@ form label, form legend{
     padding: 10px 25px;
     width: 50%;
 }
-
-.checkbox{
+.input.checkbox{
     margin:20px 0;
 }
 
@@ -285,6 +286,9 @@ tbody{
     padding: 10px 25px;
     width: 50%;
   }
+  .input-padron:active{
+    transform: scale(1.1);
+  }
   .productos li{
     display: flex;
     flex-direction: column;
@@ -295,8 +299,10 @@ tbody{
     margin: 10px 10%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    *border: 2px solid #000000;
     border-radius: 10px;
+    border-left: 2px solid #ff0000;
+  border-right: 2px solid #000fff;
   }
   .productos{
     width: auto;
