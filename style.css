@@ -60,6 +60,9 @@ nav a:hover{
     border-left: 2px solid #ff0000;
   border-right: 2px solid #000fff;
 }
+.logo{
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7) );
+}
 
 .productos li:hover{
     border-color:#c78c19;
