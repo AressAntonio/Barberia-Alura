@@ -330,3 +330,29 @@ tbody{
   
 }
 
+/*style scroll-Top*/
+
+#scroll-Top{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s, ease-in;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20%;
+  border: 1px solid #000000;
+
+ 
+}
+
+.top-btn{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 2px;
+  color: #222;
+}
+
+
+
